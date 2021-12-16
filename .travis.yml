@@ -16,3 +16,12 @@ install:
 # script de teste unitário
 script:
   - pytest -v test.py
+
+# define o deploy no Heroku
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  edge: true
+  app: $HEROKU_APP
+  on:
+    branch: main
