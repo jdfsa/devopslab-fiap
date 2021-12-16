@@ -10,5 +10,5 @@ python:
   - "3.8"
 
 # instalação de módulos necessários à aplicação
-install
+install:
   - pip install flask pytest
