@@ -12,3 +12,7 @@ python:
 # instalação de módulos necessários à aplicação
 install:
   - pip install flask pytest
+
+# script de teste unitário
+script:
+  - pytest -v test.py
