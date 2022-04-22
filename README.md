@@ -1,3 +1,3 @@
 # DevOps Lab - FIAP
 
-Aplicação em Python/Flask com teste usando Unittest integrado ao Travis-CI fazendo deploy no Heroku para exercitar uma Pipeline DevOps.
+CI/CD experimentation with Travis-CI for pipelines and Heroku (cloud plataform), using a Python/Flask application with Unittest.
